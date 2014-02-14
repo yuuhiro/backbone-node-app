@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+    <script src="javascripts/vendor/underscore-min.js"></script>
+    <script src="javascripts/vendor/backbone-min.js"></script>
+    <script type="text/javascript" src="javascripts/chat.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/ejs.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/socket.io/backbone.io.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div id="wrap" class="cf">
+    </div>
+  </body>
+</html>
